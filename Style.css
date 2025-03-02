@@ -1,0 +1,58 @@
+/* General page styling */
+body {
+  text-align: center; /* Centers everything */
+  font-family: Arial, sans-serif; /* Simple and readable font */
+  transition: background-color 0.5s ease; /* Smooth color transition */
+  background-color: black; /* Default background color */
+  color: white; /* White text */
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Box that displays the current color */
+#colorDisplay {
+  margin: 20px auto;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+  color: white;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  margin: 10px; /* Adds space between buttons */
+  font-size: 16px;
+  color: white; /* White text */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Default colors for buttons */
+#colorButton {
+  background-color: red; /* Red button */
+}
+
+#resetButton {
+  background-color: gray; /* Gray button */
+}
+
+/* Button hover effect */
+button:hover {
+  opacity: 0.8; /* Slight transparency effect on hover */
+}
+
+/* Footer */
+footer {
+  font-size: 14px; /*size of whatever im writing*/
+  color: gray;
+  margin-top: 20px;
+}
